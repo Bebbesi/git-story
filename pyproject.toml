@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "git-story"
+version = "0.1.0"
+description = "CLI tool that turns git history into a developer story with Gemini"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "git-story contributors" }]
+license = { text = "MIT" }
+dependencies = [
+  "rich>=13.7.0",
+  "google-genai>=1.11.0",
+  "pydantic>=2.7.0",
+  "python-dotenv>=1.0.1",
+]
+
+[project.scripts]
+git-story = "git_story.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["git_story*"]

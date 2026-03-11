@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+git_story/__init__.py
+git_story/__main__.py
+git_story/ai.py
+git_story/cli.py
+git_story/git_utils.py
+git_story/main.py
+git_story/models.py
+git_story/render.py
+git_story.egg-info/PKG-INFO
+git_story.egg-info/SOURCES.txt
+git_story.egg-info/dependency_links.txt
+git_story.egg-info/entry_points.txt
+git_story.egg-info/requires.txt
+git_story.egg-info/top_level.txt
